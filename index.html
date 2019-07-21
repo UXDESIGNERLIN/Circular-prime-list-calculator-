@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="CSS/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <title>Circular number list</title>
+</head>
+<body>
+    <div >
+        <form>
+            <h1>Circular number</h1>
+            <hr>
+            <p>This calculator can generate the list of circular prime number between 1 and the digit you are going to enter.</p>
+            <input id="range" type="number" class="form-control input-range" placeholder="The range..." aria-label="Recipient's username" aria-describedby="basic-addon2">
+            <div class="input-group-append">
+                <button id="clear" class="btn btn-outline-secondary" type="button">Clear</button>
+                <button id="calculate" class="btn btn-outline-secondary" type="button">Calculate</button>
+            </div>
+            <textarea id="answer" class="form-control textarea-answer" ></textarea>
+        </form>
+    </div>
+</body>
+<script type="text/javascript" src="Javascript/prime_function.js"></script>
+</html>
